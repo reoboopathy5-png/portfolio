@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jose Princy Reo V | Portfolio</title>
+<style>
+:root{--burgundy:#741f3a;--deep:#421124;--rose:#f7e8ed;--cream:#fffaf9;--ink:#251a1e;--muted:#735e65;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.7}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(66,17,36,.97);display:flex;justify-content:space-between;align-items:center;padding:16px 7%;box-shadow:0 4px 18px #0002}
+.logo{color:#fff;font-size:24px;font-weight:800;letter-spacing:2px}nav a{color:#fff;text-decoration:none;margin-left:22px;font-size:14px}nav a:hover{color:#efc4d0}
+.hero{min-height:100vh;display:flex;align-items:center;padding:120px 8% 80px;background:linear-gradient(135deg,var(--deep),var(--burgundy) 65%,#a44462);color:#fff}
+.hero-content{max-width:900px}.eyebrow{color:#f2cbd5;text-transform:uppercase;letter-spacing:4px;font-size:13px;font-weight:700}
+h1{font-size:clamp(48px,8vw,88px);line-height:1.02;margin:18px 0}.hero h2{font-size:24px;font-weight:400}.hero p{max-width:720px;color:#f8e9ee;font-size:18px;margin-top:12px}
+.btn{display:inline-block;margin-top:30px;background:#fff;color:var(--burgundy);padding:13px 25px;border-radius:30px;text-decoration:none;font-weight:700}
+section{max-width:1200px;margin:auto;padding:85px 8%}.title{font-size:39px;color:var(--deep);margin-bottom:35px}.title span{color:var(--burgundy)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}.card{background:#fff;border:1px solid #ead4dc;border-radius:20px;padding:28px;box-shadow:0 10px 30px #42112412}.card h3{color:var(--burgundy);font-size:21px;margin-bottom:7px}.year{font-size:14px;font-weight:700;color:var(--burgundy)}
+.badge{display:inline-block;margin-top:12px;background:var(--rose);color:var(--burgundy);padding:6px 12px;border-radius:20px;font-weight:700;font-size:13px}
+.project{background:var(--deep);color:#fff;border-radius:24px;padding:40px}.project h3{color:#f1c6d2;font-size:27px;margin-bottom:12px}.project p{color:#f8e9ee}.tags{margin-top:20px}.tags span{display:inline-block;background:#8d2b4b;color:#fff;padding:7px 13px;border-radius:20px;margin:4px;font-size:13px}
+ul{padding-left:20px}li{margin:6px 0}.contact{background:var(--rose)}.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.contact-item{background:#fff;border-radius:18px;padding:22px}.contact-item strong{display:block;color:var(--burgundy);margin-bottom:5px}.contact-item a{color:var(--ink);text-decoration:none}
+footer{background:var(--deep);color:#f1c6d2;text-align:center;padding:30px}
+@media(max-width:720px){nav .links{display:none}section{padding:65px 6%}.hero{padding:110px 6% 70px}h1{font-size:53px}}
+
+</style>
+</head>
+<body>
+<nav><div class="logo">JPR.</div><div class="links"><a href="#about">About</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#project">Project</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav>
+<header class="hero"><div class="hero-content"><div class="eyebrow">Mathematics • Data Analysis • Academic Growth</div><h1>Jose Princy<br>Reo V</h1><h2>B.Sc. Mathematics Graduate</h2><p>Mathematics graduate with analytical thinking, problem-solving ability and basic programming skills, seeking opportunities to learn, contribute and grow professionally.</p><a class="btn" href="#about">Explore My Portfolio ↓</a></div></header>
+<section id="about"><h2 class="title">About <span>Me</span></h2><div class="card"><p>My career objective is to begin my professional career in a growth-oriented organization where I can apply my mathematical knowledge, analytical thinking, problem-solving ability and basic programming skills to solve practical problems, contribute effectively and continuously develop my professional skills.</p></div></section>
+<section id="education"><h2 class="title">My <span>Education</span></h2><div class="grid">
+<div class="card"><div class="year">2023 – 2026</div><h3>B.Sc. Mathematics</h3><p>St. Xavier's College, Palayamkottai</p><p>Affiliated with Manonmaniam Sundaranar University</p><span class="badge">CGPA: 8.12</span></div>
+<div class="card"><div class="year">2025</div><h3>Diploma in Computer Applications</h3><p>Murugan Technical Institute, Panagudi</p><span class="badge">DCA</span></div>
+<div class="card"><div class="year">2023</div><h3>Higher Secondary</h3><p>Pulliman Matric Higher Secondary School, Panagudi</p><span class="badge">519 / 600</span></div>
+<div class="card"><div class="year">2021</div><h3>Secondary Education</h3><p>Pulliman Matric Higher Secondary School, Panagudi</p><span class="badge">COVID Assessment</span></div>
+</div></section>
+<section id="experience"><h2 class="title">Internship <span>Experience</span></h2><div class="card"><div class="year">May 2025 – June 2025</div><h3>Audit Intern</h3><p><strong>Vairavanathan &amp; Co., Tirunelveli</strong></p><p>Completed an Audit Internship and gained exposure to basic auditing procedures and professional workplace practices.</p></div></section>
+<section id="project"><h2 class="title">Academic <span>Project</span></h2><div class="project"><h3>Students Data Analysis Using Python</h3><p>Analysed students' social data using Python. The project involved CSV data handling, data cleaning, student gender analysis, education analysis and application of statistical tools to identify and interpret patterns in the dataset.</p><div class="tags"><span>Python</span><span>CSV</span><span>Data Analysis</span><span>Statistics</span><span>Mathematics</span></div></div></section>
+<section id="skills"><h2 class="title">Technical <span>Skills</span></h2><div class="grid">
+<div class="card"><h3>Python</h3><p>Basic Python programming and data analysis.</p></div><div class="card"><h3>MS Excel</h3><p>Basic spreadsheet and data-handling skills.</p></div><div class="card"><h3>LaTeX</h3><p>Mathematical and academic document preparation.</p></div><div class="card"><h3>Presentation Skills</h3><p>Clear presentation of academic and project information.</p></div><div class="card"><h3>Quick Learner &amp; Adaptable</h3><p>Willingness to learn and adapt to new tasks.</p></div><div class="card"><h3>Time Management &amp; Organization</h3><p>Organized approach to academic and professional responsibilities.</p></div>
+</div></section>
+<section><h2 class="title">Strengths &amp; <span>Languages</span></h2><div class="grid"><div class="card"><h3>Strengths</h3><ul><li>Quick Learner</li><li>Good Communication</li><li>Positive Attitude</li><li>Strong Work Ethic</li></ul></div><div class="card"><h3>Languages Known</h3><ul><li>Tamil – Read, Write, Speak (Proficient)</li><li>English – Read, Write, Speak (Proficient)</li></ul></div><div class="card"><h3>Creative Interests</h3><p>Writing, poetry, sketching and creative thinking.</p></div></div></section>
+<section id="contact" class="contact"><h2 class="title">Get In <span>Touch</span></h2><div class="contact-grid"><div class="contact-item"><strong>Phone</strong><a href="tel:8122720088">8122720088</a></div><div class="contact-item"><strong>Email</strong><a href="mailto:reoboopathy5@gmail.com">reoboopathy5@gmail.com</a></div><div class="contact-item"><strong>Location</strong><p>Panagudi, Tirunelveli</p></div></div></section>
+<footer>© 2026 Jose Princy Reo V • Mathematics Portfolio</footer>
+</body></html>
